@@ -1,0 +1,239 @@
+@font-face{
+  font-family: 'PT Sans Narrow';
+  src: url('fonts/ptsansnarrow.woff');
+  }
+
+body {background-image: url(IMG/fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top center;
+    background-color: rgb(87, 78, 78);
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid rgb(0, 0, 0);}
+
+footer {background-image: url(IMG/footer\ panel.png); /* форматирование для футера: картинка, форматирование, шрифты*/
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-position: top center;
+    background-color: rgb(87, 78, 78);
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid rgb(0, 0, 0)}
+
+/*div, ul, li, span, p {
+  border: 1px solid rgb(153, 20, 20)
+} линии для отображения блочных элементов*/ 
+
+.main_menu_last_item {
+  margin-left: 90%;
+}
+.header{
+display: block;
+background-color: black;
+height: 70px;
+line-height: 5em;
+}
+.nav-menu-wrapper{
+  width: 940px;
+  margin: 0 auto; /*выравнивает по центру*/
+}
+
+.nav-menu{
+/*убирает точки*/
+  list-style: none; 
+} 
+
+.nav-menu li{
+  display: inline; /*делает элементы в линию*/
+}
+
+.nav-menu-last-item{
+  float: right; /*стремится в право*/
+}
+.main_logo {
+  margin-left: 300px;
+}
+.header a{
+  color: #ffffff;
+  text-decoration: none; 
+}
+.container{
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.quality {
+  height: 25%;
+  text-align: center;
+  font-size: 25px;
+}
+.text {
+  display: flex;
+  margin-top: 35px;
+}
+.rhomb {
+  display: flex;
+  justify-content: center; /*флексом выравнивает по центру*/
+}
+.quality_text {
+  display: flex;
+  height: 50%;
+  text-align: center;
+}
+.gallery_block {
+  display: flex;
+  background-image: url(IMG/white\ panel.png);
+  margin-top: 29px;
+  color: rgb(0, 0, 0); 
+}
+.news_text {
+  display: flex;
+  height: 50%;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.main_section {
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+.date {
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.date2 {
+  margin-left: 30px;
+  margin-top: -8px;
+}
+.news {
+  width: 50%;
+}
+.gallery {
+  width: 50%;
+}
+.back_bttn {
+  margin-left: 30px;
+  height: 40px;
+  width: 140px;
+  background-color: black;
+  color: aliceblue;
+}
+.nav_buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+}
+.photo {
+  margin-left: 30px;
+  margin-top: 26px;
+}
+.shadow {
+  margin-top: 45px;
+}
+.contacts, .line {
+  width: 50%;
+}
+.address {
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.contact_info {
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+.contact_info2 {
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.entry_form {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 0px;
+  padding: 0px;
+}
+.entry_form_label {
+  margin-left: 5px;
+}
+.entry_form2 {
+  display: flex;
+  margin-left: 30px;
+}
+.send {
+  margin-left: 30px;
+  text-align: center;
+}
+.send_bttn {
+  height: 40px;
+  width: 300px;
+  background-color: black;
+  color: aliceblue;
+  margin-left: 85px;
+}
+.input {
+  height: 15px;
+  width: 140px;
+}
+.time {
+  margin-left: 30px;
+  margin-top: 35px;
+}
+.nav_buttons2 {
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+.footer_block {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  }
+.footer_address {
+  width: 25%;
+  margin-top: 0px;
+  line-height: 0.8em;
+}
+.footer_sbscrb {
+  width: 25%;
+  text-align: center;
+  }
+.footer_dev {
+  width: 25%;
+  align-items: center;
+  text-align: center;
+}
+#dev_panel {
+  margin-bottom: 50px;
+}
+#back_bttn_footer {
+  height: 40px;
+  width: 140px;
+  background-color: black;
+  color: aliceblue;
+  border: black;
+}
+#send_btt {
+  margin-top: 11px;
+}
+
+.entry_form_label {
+  margin-top: 0px;
+}
